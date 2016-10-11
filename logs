@@ -1,0 +1,42 @@
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Queue[{"id":"1476170400.440","states":["entrypoint"]}]
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: callStateMachine finding_op
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Queue[{"id":"1476170400.440","states":["entrypoint","finding_op"]}]
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: callStateMachine calling_op
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Queue[{"id":"1476170400.440","states":["entrypoint","finding_op","calling_op"]}]
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: entrypoint set for callstate1476170400.440;{"currentState":"entrypoint","stateTransition":["entrypoint"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: finding_op  for callstate1476170400.440:"{\"currentState\":\"entrypoint\",\"stateTransition\":[\"entrypoint\"]}":{"currentState":"entrypoint","stateTransition":["e                         ntrypoint"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: previousState/currentStateentrypoint/finding_op
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Diff of INdex:finding_op;1
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: calling_op  for callstate1476170400.440:"{\"currentState\":\"entrypoint\",\"stateTransition\":[\"entrypoint\"]}":{"currentState":"entrypoint","stateTransition":["e                         ntrypoint"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: previousState/currentStateentrypoint/calling_op
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Diff of INdex:calling_op;2
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: callStateMachine connected
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Queue[{"id":"1476170400.440","states":["entrypoint","finding_op","calling_op","connected"]}]
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: callStateMachine terminated
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Queue[{"id":"1476170400.440","states":["entrypoint","finding_op","calling_op","connected","terminated"]}]
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: finding_op set for callstate1476170400.440;{"currentState":"finding_op","stateTransition":["entrypoint","finding_op"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: calling_op  for callstate1476170400.440:"{\"currentState\":\"finding_op\",\"stateTransition\":[\"entrypoint\",\"finding_op\"]}":{"currentState":"finding_op","state                         Transition":["entrypoint","finding_op"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: previousState/currentStatefinding_op/calling_op
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Diff of INdex:calling_op;1
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: connected  for callstate1476170400.440:"{\"currentState\":\"finding_op\",\"stateTransition\":[\"entrypoint\",\"finding_op\"]}":{"currentState":"finding_op","stateT                         ransition":["entrypoint","finding_op"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: previousState/currentStatefinding_op/connected
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Diff of INdex:connected;2
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: terminated  for callstate1476170400.440:"{\"currentState\":\"finding_op\",\"stateTransition\":[\"entrypoint\",\"finding_op\"]}":{"currentState":"finding_op","state                         Transition":["entrypoint","finding_op"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: previousState/currentStatefinding_op/terminated
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Diff of INdex:terminated;3
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: calling_op set for callstate1476170400.440;{"currentState":"calling_op","stateTransition":["entrypoint","finding_op","calling_op"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: connected  for callstate1476170400.440:"{\"currentState\":\"calling_op\",\"stateTransition\":[\"entrypoint\",\"finding_op\",\"calling_op\"]}":{"currentState":"call                         ing_op","stateTransition":["entrypoint","finding_op","calling_op"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: previousState/currentStatecalling_op/connected
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Diff of INdex:connected;1
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: terminated  for callstate1476170400.440:"{\"currentState\":\"calling_op\",\"stateTransition\":[\"entrypoint\",\"finding_op\",\"calling_op\"]}":{"currentState":"cal                         ling_op","stateTransition":["entrypoint","finding_op","calling_op"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: previousState/currentStatecalling_op/terminated
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Diff of INdex:terminated;2
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: connected set for callstate1476170400.440;{"currentState":"connected","stateTransition":["entrypoint","finding_op","calling_op","connected"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: terminated  for callstate1476170400.440:"{\"currentState\":\"connected\",\"stateTransition\":[\"entrypoint\",\"finding_op\",\"calling_op\",\"connected\"]}":{"curre                         ntState":"connected","stateTransition":["entrypoint","finding_op","calling_op","connected"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: previousState/currentStateconnected/terminated
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Diff of INdex:terminated;1
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: callStateMachine dormant
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: terminated set for callstate1476170400.440;{"currentState":"terminated","stateTransition":["entrypoint","finding_op","calling_op","connected","terminated"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: dormant  for callstate1476170400.440:"{\"currentState\":\"terminated\",\"stateTransition\":[\"entrypoint\",\"finding_op\",\"calling_op\",\"connected\",\"terminated                         \"]}":{"currentState":"terminated","stateTransition":["entrypoint","finding_op","calling_op","connected","terminated"]}
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: Call Terminated Queue Status[]
+Tue Oct 11 2016 18:20:00 GMT+1100 (AEDT) - info: dormant set for callstate1476170400.440;{"currentState":"dormant","stateTransition":["entrypoint","finding_op","calling_op","connected","terminated","dormant"]}
